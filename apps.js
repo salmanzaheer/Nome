@@ -14,7 +14,7 @@ const measureCount = document.querySelector('.measures-count');
 const click1 = new Audio('MetronomeUp.wav');
 const click2 = new Audio('Metronome.wav');
 
-
+//tempo
 let bpm = 120;
 let beatsPerMeasure = 4;
 let count = 0;
