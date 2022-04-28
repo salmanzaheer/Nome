@@ -72,6 +72,7 @@ function updateMetronome()
 
     metronome.timeInterval = 60000/bpm;
 
+    /*
     if(bpm >= 10 && bpm <= 60) {
         tempoText.textContent = 'Oh this that kinda party';
     }
@@ -93,7 +94,9 @@ function updateMetronome()
     if(bpm >= 201 && bpm <= 220) {
         tempoText.textContent = "you're fuckin' crazy!";
     }
+    */
 }
+
 
 function playClick() {
     console.log(count);
